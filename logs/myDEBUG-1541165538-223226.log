@@ -1,0 +1,16 @@
+[02-Nov-2018 13:32:18 UTC] Request URI: /index.php?main_page=checkout_process&referer=paypal&amt=114.70&cc=USD&cm=zenid%3Dj64r8st38mib00gspij60u7i13&item_name=All%20the%20items%20in%20your%20shopping%20basket%20(see%20details%20in%20the%20store%20and%20on%20your%20store%20receipt).&item_number=Boscoyo%20Studio%20Purchase&st=Completed&tx=7GG807987M396143H, IP address: 67.84.189.79
+#1  constant() called at [/home/boscoyostudio/public_html/includes/modules/order_total/ot_insurance.php:43]
+#2  ot_insurance->ot_insurance() called at [/home/boscoyostudio/public_html/includes/classes/order_total.php:52]
+#3  order_total->__construct() called at [/home/boscoyostudio/public_html/includes/modules/checkout_process.php:64]
+#4  require(/home/boscoyostudio/public_html/includes/modules/checkout_process.php) called at [/home/boscoyostudio/public_html/includes/modules/pages/checkout_process/header_php.php:14]
+#5  require(/home/boscoyostudio/public_html/includes/modules/pages/checkout_process/header_php.php) called at [/home/boscoyostudio/public_html/index.php:36]
+
+[02-Nov-2018 13:32:18 UTC] PHP Warning:  constant(): Couldn't find constant MODULE_ORDER_TOTAL_INSURANCE_ZONE_3 in /home/boscoyostudio/public_html/includes/modules/order_total/ot_insurance.php on line 43
+[02-Nov-2018 13:32:39 UTC] Request URI: /index.php?main_page=checkout_process&referer=paypal&amt=114.70&cc=USD&cm=zenid%3Dj64r8st38mib00gspij60u7i13&item_name=All%20the%20items%20in%20your%20shopping%20basket%20(see%20details%20in%20the%20store%20and%20on%20your%20store%20receipt).&item_number=Boscoyo%20Studio%20Purchase&st=Completed&tx=7GG807987M396143H, IP address: 67.84.189.79
+#1  trigger_error() called at [/home/boscoyostudio/public_html/includes/functions/functions_email.php:375]
+#2  zen_mail() called at [/home/boscoyostudio/public_html/includes/classes/order.php:1171]
+#3  order->send_order_email() called at [/home/boscoyostudio/public_html/includes/modules/checkout_process.php:95]
+#4  require(/home/boscoyostudio/public_html/includes/modules/checkout_process.php) called at [/home/boscoyostudio/public_html/includes/modules/pages/checkout_process/header_php.php:14]
+#5  require(/home/boscoyostudio/public_html/includes/modules/pages/checkout_process/header_php.php) called at [/home/boscoyostudio/public_html/index.php:36]
+
+[02-Nov-2018 13:32:39 UTC] PHP Notice:  Email Error: Could not instantiate mail function.<br /> in /home/boscoyostudio/public_html/includes/functions/functions_email.php on line 375

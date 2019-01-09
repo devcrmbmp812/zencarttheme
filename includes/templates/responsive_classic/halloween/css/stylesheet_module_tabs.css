@@ -1,0 +1,6 @@
+#moduleMenu {background:eceaea; border-top:0px solid #eaeaea; border-bottom:0px solid #eaeaea; height:30px;}
+#moduleMenu span{ float:left;margin-right:5px;}
+#moduleMenu span a {color:#444;font-weight:bold;display:block;outline:none;text-align:center;padding-top:5px;font-size:13px;background-color:#eaeaea; border-top:2px solid #d2cece; border-bottom:2px solid #d2cece;}
+#featuredProducts {display:block;}
+.moduleBox{background: url(../images/tab-head.jpg) no-repeat;width:120px;height:30px;padding-left:0px;position:relative;top:-30px;}
+#moduleMenu-wrapper{border:1px solid #d8e1c6;width:95%;margin:0 auto;background:#fff;-moz-border-radius: 0px 5px 5px 5px;-webkit-border-radius: 0px 5px 5px 5px;-khtml-border-radius: 0px 5px 5px 5px;border-radius: 0px 5px 5px 5px;margin-top:45px;}

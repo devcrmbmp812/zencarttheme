@@ -1,0 +1,7 @@
+[27-Oct-2018 20:01:17 UTC] Request URI: /index.php?main_page=checkout_confirmation&zenid=ugc6ad56cc4t6o6a2krpbm5996, IP address: 208.97.23.94
+#1  constant() called at [/home/boscoyostudio/public_html/includes/modules/order_total/ot_insurance.php:43]
+#2  ot_insurance->ot_insurance() called at [/home/boscoyostudio/public_html/includes/classes/order_total.php:52]
+#3  order_total->__construct() called at [/home/boscoyostudio/public_html/includes/modules/pages/checkout_confirmation/header_php.php:70]
+#4  require(/home/boscoyostudio/public_html/includes/modules/pages/checkout_confirmation/header_php.php) called at [/home/boscoyostudio/public_html/index.php:36]
+
+[27-Oct-2018 20:01:17 UTC] PHP Warning:  constant(): Couldn't find constant MODULE_ORDER_TOTAL_INSURANCE_ZONE_3 in /home/boscoyostudio/public_html/includes/modules/order_total/ot_insurance.php on line 43

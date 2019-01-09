@@ -1,0 +1,20 @@
+[07-Jan-2019 16:09:14 UTC] Request URI: /new_admin/modules.php?set=shipping, IP address: 47.200.215.117
+#1  include_once() called at [/home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php:14]
+#2  include(/home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php) called at [/home/newboscoyostudio/public_html/new_admin/modules.php:197]
+
+[07-Jan-2019 16:09:14 UTC] PHP Warning:  include_once(includes/ShipRateParserXML.php): failed to open stream: No such file or directory in /home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php on line 14
+[07-Jan-2019 16:09:14 UTC] Request URI: /new_admin/modules.php?set=shipping, IP address: 47.200.215.117
+#1  include_once() called at [/home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php:14]
+#2  include(/home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php) called at [/home/newboscoyostudio/public_html/new_admin/modules.php:197]
+
+[07-Jan-2019 16:09:14 UTC] PHP Warning:  include_once(): Failed opening 'includes/ShipRateParserXML.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php on line 14
+[07-Jan-2019 16:09:14 UTC] Request URI: /new_admin/modules.php?set=shipping, IP address: 47.200.215.117
+#1  include_once() called at [/home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php:15]
+#2  include(/home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php) called at [/home/newboscoyostudio/public_html/new_admin/modules.php:197]
+
+[07-Jan-2019 16:09:14 UTC] PHP Warning:  include_once(includes/ShipRateParserXMLItem.php): failed to open stream: No such file or directory in /home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php on line 15
+[07-Jan-2019 16:09:14 UTC] Request URI: /new_admin/modules.php?set=shipping, IP address: 47.200.215.117
+#1  include_once() called at [/home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php:15]
+#2  include(/home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php) called at [/home/newboscoyostudio/public_html/new_admin/modules.php:197]
+
+[07-Jan-2019 16:09:14 UTC] PHP Warning:  include_once(): Failed opening 'includes/ShipRateParserXMLItem.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/newboscoyostudio/public_html/includes/modules/shipping/auctioninc.php on line 15

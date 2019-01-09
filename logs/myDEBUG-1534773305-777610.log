@@ -1,0 +1,6 @@
+[20-Aug-2018 13:55:06 UTC] Request URI: /, IP address: 86.106.8.85
+#1  require(/home/boscoyostudio/public_html/includes/init_includes/init_header.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[20-Aug-2018 13:55:06 UTC] PHP Warning:  Use of undefined constant MODULE_PAYMENT_PAYPAL_TESTING - assumed 'MODULE_PAYMENT_PAYPAL_TESTING' (this will throw an Error in a future version of PHP) in /home/boscoyostudio/public_html/includes/init_includes/init_header.php on line 27

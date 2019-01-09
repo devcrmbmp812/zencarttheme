@@ -1,0 +1,18 @@
+[24-Aug-2018 03:30:58 UTC] Request URI: /index.php?main_page=login&action=process, IP address: 107.77.193.19
+#1  navigationHistory->add_current_page() called at [/home/boscoyostudio/public_html/includes/autoload_func.php:87]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[24-Aug-2018 03:30:58 UTC] PHP Warning:  Illegal string offset 'action' in /home/boscoyostudio/public_html/includes/classes/navigation_history.php on line 43
+[24-Aug-2018 03:30:58 UTC] Request URI: /index.php?main_page=login&action=process, IP address: 107.77.193.19
+#1  require(/home/boscoyostudio/public_html/includes/init_includes/init_header.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[24-Aug-2018 03:30:58 UTC] PHP Warning:  Use of undefined constant MODULE_PAYMENT_PAYPAL_TESTING - assumed 'MODULE_PAYMENT_PAYPAL_TESTING' (this will throw an Error in a future version of PHP) in /home/boscoyostudio/public_html/includes/init_includes/init_header.php on line 27
+[24-Aug-2018 03:30:58 UTC] Request URI: /index.php?main_page=login&action=process, IP address: 107.77.193.19
+#1  session_set_save_handler() called at [/home/boscoyostudio/public_html/includes/functions/sessions.php:162]
+#2  zen_session_recreate() called at [/home/boscoyostudio/public_html/includes/modules/pages/login/header_php.php:78]
+#3  require(/home/boscoyostudio/public_html/includes/modules/pages/login/header_php.php) called at [/home/boscoyostudio/public_html/index.php:36]
+
+[24-Aug-2018 03:30:58 UTC] PHP Warning:  session_set_save_handler(): Cannot change save handler when session is active in /home/boscoyostudio/public_html/includes/functions/sessions.php on line 162

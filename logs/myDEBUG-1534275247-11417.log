@@ -1,0 +1,80 @@
+[14-Aug-2018 19:34:07 UTC] Request URI: /index.php?main_page=index, IP address: 47.205.224.183
+#1  mysqli_connect() called at [/home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php:64]
+#2  queryFactory->connect() called at [/home/boscoyostudio/public_html/includes/init_includes/init_database.php:23]
+#3  require(/home/boscoyostudio/public_html/includes/init_includes/init_database.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#4  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#5  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'boscoyostudio_zencart'@'localhost' to database 'boscoyostudio_zencart' in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 64
+[14-Aug-2018 19:34:07 UTC] Request URI: /index.php?main_page=index, IP address: 47.205.224.183
+#1  mysqli_connect() called at [/home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php:64]
+#2  queryFactory->connect() called at [/home/boscoyostudio/public_html/includes/init_includes/init_database.php:23]
+#3  require(/home/boscoyostudio/public_html/includes/init_includes/init_database.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#4  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#5  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'boscoyostudio_zencart'@'localhost' to database 'boscoyostudio_zencart' in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 64
+[14-Aug-2018 19:34:07 UTC] Request URI: /index.php?main_page=index, IP address: 47.205.224.183
+#1  mysqli_connect() called at [/home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php:64]
+#2  queryFactory->connect() called at [/home/boscoyostudio/public_html/includes/init_includes/init_database.php:23]
+#3  require(/home/boscoyostudio/public_html/includes/init_includes/init_database.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#4  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#5  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'boscoyostudio_zencart'@'localhost' to database 'boscoyostudio_zencart' in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 64
+[14-Aug-2018 19:34:07 UTC] Request URI: /index.php?main_page=index, IP address: 47.205.224.183
+#1  mysqli_connect() called at [/home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php:64]
+#2  queryFactory->connect() called at [/home/boscoyostudio/public_html/includes/init_includes/init_database.php:23]
+#3  require(/home/boscoyostudio/public_html/includes/init_includes/init_database.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#4  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#5  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'boscoyostudio_zencart'@'localhost' to database 'boscoyostudio_zencart' in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 64
+[14-Aug-2018 19:34:07 UTC] Request URI: /index.php?main_page=index, IP address: 47.205.224.183
+#1  mysqli_connect() called at [/home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php:64]
+#2  queryFactory->connect() called at [/home/boscoyostudio/public_html/includes/init_includes/init_database.php:23]
+#3  require(/home/boscoyostudio/public_html/includes/init_includes/init_database.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#4  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#5  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'boscoyostudio_zencart'@'localhost' to database 'boscoyostudio_zencart' in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 64
+[14-Aug-2018 19:34:07 UTC] Request URI: /index.php?main_page=index, IP address: 47.205.224.183
+#1  mysqli_connect() called at [/home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php:64]
+#2  queryFactory->connect() called at [/home/boscoyostudio/public_html/includes/init_includes/init_database.php:23]
+#3  require(/home/boscoyostudio/public_html/includes/init_includes/init_database.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#4  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#5  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'boscoyostudio_zencart'@'localhost' to database 'boscoyostudio_zencart' in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 64
+[14-Aug-2018 19:34:07 UTC] Request URI: /index.php?main_page=index, IP address: 47.205.224.183
+#1  mysqli_connect() called at [/home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php:64]
+#2  queryFactory->connect() called at [/home/boscoyostudio/public_html/includes/init_includes/init_database.php:23]
+#3  require(/home/boscoyostudio/public_html/includes/init_includes/init_database.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#4  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#5  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'boscoyostudio_zencart'@'localhost' to database 'boscoyostudio_zencart' in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 64
+[14-Aug-2018 19:34:07 UTC] Request URI: /index.php?main_page=index, IP address: 47.205.224.183
+#1  mysqli_connect() called at [/home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php:64]
+#2  queryFactory->connect() called at [/home/boscoyostudio/public_html/includes/init_includes/init_database.php:23]
+#3  require(/home/boscoyostudio/public_html/includes/init_includes/init_database.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#4  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#5  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'boscoyostudio_zencart'@'localhost' to database 'boscoyostudio_zencart' in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 64
+[14-Aug-2018 19:34:07 UTC] Request URI: /index.php?main_page=index, IP address: 47.205.224.183
+#1  mysqli_connect() called at [/home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php:64]
+#2  queryFactory->connect() called at [/home/boscoyostudio/public_html/includes/init_includes/init_database.php:23]
+#3  require(/home/boscoyostudio/public_html/includes/init_includes/init_database.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#4  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#5  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'boscoyostudio_zencart'@'localhost' to database 'boscoyostudio_zencart' in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 64
+[14-Aug-2018 19:34:07 UTC] Request URI: /index.php?main_page=index, IP address: 47.205.224.183
+#1  mysqli_connect() called at [/home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php:64]
+#2  queryFactory->connect() called at [/home/boscoyostudio/public_html/includes/init_includes/init_database.php:23]
+#3  require(/home/boscoyostudio/public_html/includes/init_includes/init_database.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#4  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#5  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:34:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'boscoyostudio_zencart'@'localhost' to database 'boscoyostudio_zencart' in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 64

@@ -1,0 +1,24 @@
+[24-Aug-2018 06:04:59 UTC] Request URI: /index.php?main_page=product_info&cPath=2_56&products_id=220&number_of_uploads=0&action=add_product, IP address: 47.200.209.221
+#1  navigationHistory->add_current_page() called at [/home/boscoyostudio/public_html/includes/autoload_func.php:87]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[24-Aug-2018 06:04:59 UTC] PHP Warning:  Illegal string offset 'cPath' in /home/boscoyostudio/public_html/includes/classes/navigation_history.php on line 43
+[24-Aug-2018 06:04:59 UTC] Request URI: /index.php?main_page=product_info&cPath=2_56&products_id=220&number_of_uploads=0&action=add_product, IP address: 47.200.209.221
+#1  navigationHistory->add_current_page() called at [/home/boscoyostudio/public_html/includes/autoload_func.php:87]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[24-Aug-2018 06:04:59 UTC] PHP Warning:  Illegal string offset 'products_id' in /home/boscoyostudio/public_html/includes/classes/navigation_history.php on line 43
+[24-Aug-2018 06:04:59 UTC] Request URI: /index.php?main_page=product_info&cPath=2_56&products_id=220&number_of_uploads=0&action=add_product, IP address: 47.200.209.221
+#1  navigationHistory->add_current_page() called at [/home/boscoyostudio/public_html/includes/autoload_func.php:87]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[24-Aug-2018 06:04:59 UTC] PHP Warning:  Illegal string offset 'number_of_uploads' in /home/boscoyostudio/public_html/includes/classes/navigation_history.php on line 43
+[24-Aug-2018 06:04:59 UTC] Request URI: /index.php?main_page=product_info&cPath=2_56&products_id=220&number_of_uploads=0&action=add_product, IP address: 47.200.209.221
+#1  navigationHistory->add_current_page() called at [/home/boscoyostudio/public_html/includes/autoload_func.php:87]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[24-Aug-2018 06:04:59 UTC] PHP Warning:  Illegal string offset 'action' in /home/boscoyostudio/public_html/includes/classes/navigation_history.php on line 43

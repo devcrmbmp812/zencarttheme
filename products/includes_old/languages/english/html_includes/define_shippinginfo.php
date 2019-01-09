@@ -1,0 +1,1 @@
+<p>We will ship your items securely and economically. Generally, orders placed for in-stock items will ship within 24 hours. Custom items or pre-sale items will only ship once the order is completed.</p>

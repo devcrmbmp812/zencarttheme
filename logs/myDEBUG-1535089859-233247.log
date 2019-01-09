@@ -1,0 +1,6 @@
+[24-Aug-2018 05:50:59 UTC] Request URI: /index.php?main_page=shopping_cart&action=update_product, IP address: 47.200.209.221
+#1  navigationHistory->add_current_page() called at [/home/boscoyostudio/public_html/includes/autoload_func.php:87]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[24-Aug-2018 05:50:59 UTC] PHP Warning:  Illegal string offset 'action' in /home/boscoyostudio/public_html/includes/classes/navigation_history.php on line 43

@@ -1,0 +1,131 @@
+<modelinventory>
+	<vendor>
+		<name>Boscoyo Studio</name>
+		<contact>shannon</contact>
+		<email>fred@fred.com</email>
+		<phone>+1800223456</phone>
+		<website>https://www.boscoyostudio.com/</website>
+		<facebook>xlights.org/facebook</facebook>
+		<notes>these are some notes on the vendor</notes>
+		<logolink>http://localhost:3000/Logo.jpg?sfrwe=sdas</logolink>
+	</vendor>
+	<categories>
+		<category>
+			<id>1</id>
+			<name>Christmas</name>
+			<categories>
+				<category>
+					<id>10</id>
+					<name>Stars</name>
+				</category>
+				<category>
+					<id>11</id>
+					<name>Matrices</name>
+				</category>
+			</categories>
+		</category>
+		<category>
+			<id>2</id>
+			<name>Haloween</name>
+			<categories>
+				<category>
+					<id>20</id>
+					<name>Tombstones</name>
+				</category>
+				<category>
+					<id>21</id>
+					<name>Spiders</name>
+				</category>
+			</categories>
+		</category>
+	</categories>
+	<models>
+		<model>
+			<id>1</id>
+			<categoryid>21</categoryid>
+			<name>Black Widow Spider</name>
+			<type>Type</type>
+			<weblink><![CDATA[https://www.boscoyostudio.com/index.php?main_page=product_info&cPath=34&products_id=151]]></weblink>
+			<material>ABS</material>
+			<width>12</width>
+			<height>14</height>
+			<thickness>11</thickness>
+			<pixelcount>270</pixelcount>
+			<pixeldescription>bullets</pixeldescription>
+			<imagefile>http://boscoyo-studio.com/Images/Boscoyo Black Widow Spider.jpg</imagefile>
+			<notes>some notes on the spider</notes>
+			<wiring>
+				<name>wiring</name>
+				<description>wiring description</description>
+				<xmodellink>http://boscoyo-studio.com/Models/Boscoyo_Black_Widow_Spider.xmodel</xmodellink>
+			</wiring>
+		</model>
+		<model>
+			<id>2</id>
+			<categoryid>20</categoryid>
+			<name>Chromastones Set</name>
+			<type>Type</type>
+			<weblink><![CDATA[https://www.boscoyostudio.com/index.php?main_page=product_info&cPath=34&products_id=67]]></weblink>
+			<material>ABS</material>
+			<width>12</width>
+			<height>14</height>
+			<thickness>11</thickness>
+			<pixelcount>270</pixelcount>
+			<pixeldescription>square nodes</pixeldescription>
+			<imagefile>http://localhost:3000/ChromaStonesSet/32fb26a4b2ffea4149e1dd0666a135ef.image.250x187.JPG</imagefile>
+			<imagefile>http://localhost:3000/ChromaStonesSet/dca1b6b1d356163c766c463168b261e4.image.114x100.JPG</imagefile>
+			<notes>some notes on the stones</notes>
+			<wiring>
+				<name>1</name>
+				<description>wiring description</description>
+				<xmodellink>http://localhost:3000/ChromaStonesSet/Chromastone 1.xmodel</xmodellink>
+				<imagefile>http://localhost:3000/ChromaStonesSet/Spinner2.png</imagefile>
+			</wiring>
+			<wiring>
+				<name>2</name>
+				<description>wiring description 2</description>
+				<xmodellink>http://localhost:3000/ChromaStonesSet/Chromastone 2.xmodel</xmodellink>
+			</wiring>
+			<wiring>
+				<name>3</name>
+				<description>wiring description 3</description>
+				<xmodellink>http://localhost:3000/ChromaStonesSet/Chromastone 3.xmodel</xmodellink>
+			</wiring>
+			<wiring>
+				<name>4</name>
+				<description>wiring description 4</description>
+				<xmodellink>http://localhost:3000/ChromaStonesSet/Chromastone 4.xmodel</xmodellink>
+			</wiring>
+			<wiring>
+				<name>5</name>
+				<description>wiring description 5</description>
+				<xmodellink>http://localhost:3000/ChromaStonesSet/Chromastone 5.xmodel</xmodellink>
+			</wiring>
+			<wiring>
+				<name>6</name>
+				<description>wiring description 6</description>
+				<xmodellink>http://localhost:3000/ChromaStonesSet/Chromastone 6.xmodel</xmodellink>
+			</wiring>
+		</model>
+		<model>
+			<id>3</id>
+			<categoryid>10</categoryid>
+			<name>Star Wreath Topper</name>
+			<type>Type</type>
+			<weblink><![CDATA[https://www.boscoyostudio.com/index.php?main_page=product_info&cPath=2_46&products_id=138]]></weblink>
+			<material>ABS</material>
+			<width>12</width>
+			<height>14</height>
+			<thickness>11</thickness>
+			<pixelcount>270</pixelcount>
+			<pixeldescription>square nodes</pixeldescription>
+			<imagefile>http://localhost:3000/StarWreathTopper/06d068ce85f61096815b0cffc3432616.image.250x187.jpg</imagefile>
+			<notes>some notes on the topper</notes>
+			<wiring>
+				<name></name>
+				<description></description>
+				<xmodellink>http://localhost:3000/StarWreathTopper/Boscoyo Star Wreath Topper.xmodel</xmodellink>
+			</wiring>
+		</model>
+	</models>
+</modelinventory>

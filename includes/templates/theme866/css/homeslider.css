@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/******************************************************************************
+						Home Page Slider
+*******************************************************************************/
+#homepage-slider {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+#homepage-slider #homeslider {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#homepage-slider .homeslider-description a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#homepage-slider .homeslider-description .container {
+  padding: 0px;
+  cursor: pointer;
+  height: 100%;
+  position: relative;
+}
+
+#homepage-slider .homeslider-description .container .homeslider-description-indent {
+  position: absolute;
+  right: 0;
+  top: 46.5%;
+  padding-right: 140px;
+}
+
+#homepage-slider .homeslider-description .container .homeslider-description-indent h2 {
+  color: white;
+  font: 300 28px/34px "Roboto", sans-serif;
+  margin: 0 0 -3px;
+  padding: 0;
+  position: relative;
+}
+
+#homepage-slider .homeslider-description .container .homeslider-description-indent h3 {
+  color: white;
+  font: normal 80px / 80px 'Paytone One', sans-serif;
+  margin: -3px 0 21px -3px;
+  padding: 0;
+}
+
+#homepage-slider .homeslider-description .container .homeslider-description-indent button {
+  font-size: 13px;
+  font-weight: 900;
+  color: #fff;
+  min-width: 169px;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 15px 11px;
+  background: #029ece;
+  -moz-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -o-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -webkit-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#homepage-slider .homeslider-description .container .homeslider-description-indent button:hover {
+  background: #1a1a1a;
+}
+
+/*****************************************************************************
+						BXSlider Styles
+********************************************************************************/
+#homepage-slider .homeslider-container {
+  position: relative;
+}
+
+#homepage-slider .homeslider-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#homepage-slider .homeslider-description {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#homepage-slider .bx-wrapper {
+  position: relative;
+  padding: 0;
+  *zoom: 1;
+}
+
+#homepage-slider .bx-wrapper a {
+  display: block;
+}
+
+#homepage-slider .bx-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#homepage-slider .bx-wrapper .bx-viewport {
+  width: 100%;
+}
+
+#homepage-slider .bx-wrapper .bx-pager,
+#homepage-slider .bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  z-index: 999;
+}
+
+#homepage-slider .bx-wrapper .bx-loading {
+  min-height: 50px;
+  background: url(images/bx_loader.gif) center center no-repeat white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+#homepage-slider .bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #666;
+  padding-top: 20px;
+}
+
+#homepage-slider .bx-wrapper .bx-pager .bx-pager-item,
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a {
+  background: none;
+  border: 3px solid #fff;
+  text-indent: -9999px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #fff;
+}
+
+#homepage-slider .bx-wrapper .bx-prev {
+  left: 50%;
+  margin-left: -57px;
+  background-image: url(../../../img/prev.png);
+}
+
+#homepage-slider .bx-wrapper .bx-next {
+  right: 50%;
+  margin-right: -57px;
+  background-image: url(../../../img/next.png);
+}
+
+#homepage-slider .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  bottom: 14px;
+  outline: 0;
+  width: 52px;
+  height: 52px;
+  text-indent: -9999px;
+  z-index: 9999;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -moz-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -o-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -webkit-transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#homepage-slider .bx-wrapper .bx-controls-direction a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#homepage-slider .bx-wrapper .bx-controls-direction a.disabled {
+  display: none;
+}
+
+#homepage-slider .bx-wrapper .bx-controls-auto {
+  text-align: center;
+}
+
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-start {
+  display: block;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  margin: 0 3px;
+}
+
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-start:before {
+  content: '';
+  font-family: "FontAwesome";
+  color: #fff;
+}
+
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-stop {
+  display: block;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  margin: 0 3px;
+}
+
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-stop:before {
+  content: '';
+  font-family: "FontAwesome";
+  color: #fff;
+}
+
+#homepage-slider .bx-wrapper .bx-controls .bx-controls-auto {
+  right: 15px;
+  width: 35px;
+  top: 15px;
+}
+
+#homepage-slider .bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666666 \9;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%;
+}
+
+#homepage-slider .bx-wrapper .bx-caption span {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  font-size: .85em;
+  padding: 10px;
+}
+
+.ie8 #homepage-slider .bx-wrapper .bx-controls-direction a:before {
+  background: #1a1a1a;
+}
+
+#bx-pager-thumb {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#bx-pager-thumb a {
+  display: inline-block;
+  max-width: 150px;
+  width: 31%;
+}
+
+#bx-pager-thumb a img {
+  max-width: 100%;
+  height: auto;
+}

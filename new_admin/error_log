@@ -1,0 +1,120 @@
+[26-Nov-2018 23:32:15 UTC] PHP Fatal error:  Call to undefined method zencart::getStores() in /home/boscoyostudio/public_html/new_admin/webgility/lib/D.WgCommon.php on line 60
+[26-Nov-2018 23:32:17 UTC] PHP Fatal error:  Call to undefined method zencart::getStores() in /home/boscoyostudio/public_html/new_admin/webgility/lib/D.WgCommon.php on line 60
+[26-Nov-2018 23:32:18 UTC] PHP Fatal error:  Call to undefined method zencart::getStores() in /home/boscoyostudio/public_html/new_admin/webgility/lib/D.WgCommon.php on line 60
+[26-Nov-2018 23:32:39 UTC] PHP Fatal error:  Call to undefined method zencart::getStores() in /home/boscoyostudio/public_html/new_admin/webgility/lib/D.WgCommon.php on line 60
+[26-Nov-2018 23:32:41 UTC] PHP Fatal error:  Call to undefined method zencart::getStores() in /home/boscoyostudio/public_html/new_admin/webgility/lib/D.WgCommon.php on line 60
+[26-Nov-2018 23:32:42 UTC] PHP Fatal error:  Call to undefined method zencart::getStores() in /home/boscoyostudio/public_html/new_admin/webgility/lib/D.WgCommon.php on line 60
+[29-Nov-2018 18:11:53 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 2049 bytes) in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 45
+[29-Nov-2018 18:12:26 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 78 bytes) in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 272
+[29-Nov-2018 18:13:00 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 2049 bytes) in /home/boscoyostudio/public_html/includes/classes/db/mysql/query_factory.php on line 45
+[29-Nov-2018 18:33:45 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 820
+[29-Nov-2018 18:33:51 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 841
+[29-Nov-2018 18:33:57 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 841
+[29-Nov-2018 18:35:52 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 820
+[29-Nov-2018 18:35:59 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 871
+[29-Nov-2018 18:36:05 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 820
+[29-Nov-2018 18:40:13 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 863
+[29-Nov-2018 18:40:19 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 867
+[29-Nov-2018 18:40:25 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 863
+[29-Nov-2018 19:29:21 UTC] PHP Fatal error:  Call to a member function MoveNext() on string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 19:29:22 UTC] PHP Fatal error:  Call to a member function MoveNext() on string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 19:29:23 UTC] PHP Fatal error:  Call to a member function MoveNext() on string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 19:44:25 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1010
+[29-Nov-2018 19:44:31 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3329
+[29-Nov-2018 19:44:37 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1010
+[29-Nov-2018 19:45:43 UTC] PHP Fatal error:  Call to a member function setItemVariants() on null in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2451
+[29-Nov-2018 19:45:44 UTC] PHP Fatal error:  Call to a member function setItemVariants() on null in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2451
+[29-Nov-2018 19:45:46 UTC] PHP Fatal error:  Call to a member function setItemVariants() on null in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2451
+[29-Nov-2018 19:48:01 UTC] PHP Fatal error:  Call to a member function MoveNext() on string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2525
+[29-Nov-2018 19:48:02 UTC] PHP Fatal error:  Call to a member function MoveNext() on string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2525
+[29-Nov-2018 19:48:04 UTC] PHP Fatal error:  Call to a member function MoveNext() on string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2525
+[29-Nov-2018 19:49:07 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1035
+[29-Nov-2018 19:49:13 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1022
+[29-Nov-2018 19:49:18 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1035
+[29-Nov-2018 19:53:26 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1018
+[29-Nov-2018 19:53:32 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 923
+[29-Nov-2018 19:53:37 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1018
+[29-Nov-2018 19:55:15 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1035
+[29-Nov-2018 19:55:21 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 923
+[29-Nov-2018 19:55:27 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1035
+[29-Nov-2018 19:59:59 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1014
+[29-Nov-2018 20:00:05 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 923
+[29-Nov-2018 20:00:10 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1014
+[29-Nov-2018 23:15:29 UTC] PHP Deprecated:  mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1823
+[29-Nov-2018 23:15:29 UTC] PHP Notice:  Undefined index: shipping_freight in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2476
+[29-Nov-2018 23:15:29 UTC] PHP Notice:  Undefined variable: ivInfo in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:15:29 UTC] PHP Notice:  Trying to get property of non-object in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:15:29 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:15:29 UTC] PHP Warning:  Creating default object from empty value in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:15:29 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:15:29 UTC] PHP Catchable fatal error:  Object of class WG_Variant could not be converted to string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 23:15:30 UTC] PHP Deprecated:  mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1823
+[29-Nov-2018 23:15:30 UTC] PHP Notice:  Undefined index: shipping_freight in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2476
+[29-Nov-2018 23:15:30 UTC] PHP Notice:  Undefined variable: ivInfo in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:15:30 UTC] PHP Notice:  Trying to get property of non-object in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:15:30 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:15:30 UTC] PHP Warning:  Creating default object from empty value in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:15:30 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:15:30 UTC] PHP Catchable fatal error:  Object of class WG_Variant could not be converted to string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 23:15:31 UTC] PHP Deprecated:  mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1823
+[29-Nov-2018 23:15:31 UTC] PHP Notice:  Undefined index: shipping_freight in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2476
+[29-Nov-2018 23:15:31 UTC] PHP Notice:  Undefined variable: ivInfo in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:15:31 UTC] PHP Notice:  Trying to get property of non-object in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:15:31 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:15:31 UTC] PHP Warning:  Creating default object from empty value in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:15:31 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:15:31 UTC] PHP Catchable fatal error:  Object of class WG_Variant could not be converted to string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 23:17:06 UTC] PHP Deprecated:  mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1823
+[29-Nov-2018 23:17:06 UTC] PHP Notice:  Undefined index: shipping_freight in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2476
+[29-Nov-2018 23:17:06 UTC] PHP Notice:  Undefined variable: ivInfo in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:17:06 UTC] PHP Notice:  Trying to get property of non-object in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:17:06 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:17:06 UTC] PHP Warning:  Creating default object from empty value in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:17:06 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:17:06 UTC] PHP Catchable fatal error:  Object of class WG_Variant could not be converted to string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 23:17:07 UTC] PHP Deprecated:  mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1823
+[29-Nov-2018 23:17:07 UTC] PHP Notice:  Undefined index: shipping_freight in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2476
+[29-Nov-2018 23:17:07 UTC] PHP Notice:  Undefined variable: ivInfo in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:17:07 UTC] PHP Notice:  Trying to get property of non-object in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:17:07 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:17:07 UTC] PHP Warning:  Creating default object from empty value in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:17:07 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:17:07 UTC] PHP Catchable fatal error:  Object of class WG_Variant could not be converted to string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 23:17:08 UTC] PHP Deprecated:  mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1823
+[29-Nov-2018 23:17:08 UTC] PHP Notice:  Undefined index: shipping_freight in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2476
+[29-Nov-2018 23:17:08 UTC] PHP Notice:  Undefined variable: ivInfo in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:17:08 UTC] PHP Notice:  Trying to get property of non-object in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:17:08 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:17:08 UTC] PHP Warning:  Creating default object from empty value in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2500
+[29-Nov-2018 23:17:08 UTC] PHP Notice:  Undefined variable: v in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 3331
+[29-Nov-2018 23:17:08 UTC] PHP Catchable fatal error:  Object of class WG_Variant could not be converted to string in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 23:30:23 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 23:30:28 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 923
+[29-Nov-2018 23:30:34 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2522
+[29-Nov-2018 23:31:54 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1026
+[29-Nov-2018 23:32:00 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1026
+[29-Nov-2018 23:32:08 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1026
+[29-Nov-2018 23:34:37 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1022
+[29-Nov-2018 23:34:46 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1022
+[29-Nov-2018 23:34:54 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1022
+[29-Nov-2018 23:41:12 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1022
+[29-Nov-2018 23:41:21 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1022
+[29-Nov-2018 23:41:30 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1022
+[30-Nov-2018 17:28:20 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1022
+[30-Nov-2018 17:28:27 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1022
+[30-Nov-2018 17:28:33 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1022
+[30-Nov-2018 17:30:30 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 64 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1018
+[30-Nov-2018 17:30:38 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 64 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1018
+[30-Nov-2018 17:30:45 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 64 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1018
+[30-Nov-2018 17:33:51 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2515
+[30-Nov-2018 17:33:59 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2515
+[30-Nov-2018 17:34:07 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2515
+[30-Nov-2018 17:35:09 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1035
+[30-Nov-2018 17:35:17 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1035
+[30-Nov-2018 17:35:25 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1035
+[30-Nov-2018 18:13:21 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1010
+[30-Nov-2018 18:13:27 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2521
+[30-Nov-2018 18:13:32 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 72 bytes) in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.WgCommon.php on line 1010
+[30-Nov-2018 18:16:26 UTC] PHP Fatal error:  Call to undefined method WG_Variants::setItemCode() in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2516
+[30-Nov-2018 18:16:28 UTC] PHP Fatal error:  Call to undefined method WG_Variants::setItemCode() in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2516
+[30-Nov-2018 18:16:29 UTC] PHP Fatal error:  Call to undefined method WG_Variants::setItemCode() in /home/boscoyostudio/public_html/new_admin/webgility_test/lib/D.zencart.php on line 2516

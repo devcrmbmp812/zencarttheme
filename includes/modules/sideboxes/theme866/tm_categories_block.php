@@ -1,0 +1,1 @@
+<?php require($template->get_template_dir('tpl_tm_categories_block.php',DIR_WS_TEMPLATE, $current_page_base,'common'). '/tpl_tm_categories_block.php');?>

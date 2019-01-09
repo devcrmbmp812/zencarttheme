@@ -1,0 +1,155 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+@import "theme_variables";
+@import "stylesheet_font-awesome.min";
+
+#suggestions{ 
+	position:absolute; 
+	left:-90px!important; 
+	top:61px;
+	width:100%;
+	min-width:270px;
+	display:none; 
+	z-index: 9999;
+	border-bottom:0;
+	background: #fff;
+	border:1px solid #e8e8e8;
+}
+#suggestions hr { 
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+.suggestion { 
+	background-color: #fff;
+	font-size:13px;
+	position:relative;
+}
+.suggestion a { 
+	display:block; 
+	clear:left; 
+	text-decoration:none; 
+	padding: 10px;
+	border-bottom:$border;
+}
+.suggestion a:hover { 
+	color:$color-hover;
+}
+.suggestion img.img-responsive{
+	float:left;
+	width: 45%;
+	margin: 0px 3% 0 0 !important; 
+}
+.suggestion .search-info{ 
+	float:left;
+	width:52%;
+	.content_price{
+		.normalprice{
+			display: block;
+		}
+		.productPriceDiscount{
+			top: 0;
+			left:-5px;
+			color:#fff;
+		}
+	}
+}
+.suggestion .product-name{
+	margin:0;
+	display:inline-block;
+	@include transition;
+	&:hover{
+		color:$color-hover;
+	}
+}
+.suggestion .productSalePrice{
+	color: $color-hover;
+}
+.suggestion  .model{
+	margin-top:10px;
+}
+.suggestion .model,
+.suggestion .brand {
+	display:block;
+	color:#555;
+	font-size:13px;
+	line-height:16px;
+	margin-bottom:5px;
+}
+.suggestion .productPriceDiscount{
+	position:absolute;
+	left:-5px;
+	top:0px;
+}
+
+#suggestionCount {
+	text-align:center;
+	display:block;
+	font-weight:normal;
+}
+#suggestionPrev {
+	display: block;
+	cursor:pointer;
+	text-align: left;
+	padding-left:10px;
+	float:left;
+}
+#suggestionPrev:after{
+	content:'';
+	font-family:'FontAwesome';
+	
+}
+#suggestionNext {
+	display: block;
+	float:right;
+	text-align:right;
+	cursor:pointer;
+	padding-right:10px;
+}
+#suggestionNext:after{
+	content:'';
+	font-family:'FontAwesome';	
+}
+#suggestionPrev:hover, 
+#suggestionNext:hover {
+	color:$color-hover;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	#suggestions{
+		left:0!important;
+	}
+	.suggestion .search-info{ 
+		width:55%;
+	}
+	.suggestion img.img-responsive{
+		float:left;
+		margin:0 !important; 
+	}
+	.suggestion .productPriceDiscount{
+		left:0!important;
+	}
+
+}
+@media (min-width: 769px) and (max-width: 992px) {
+
+}
+@media (max-width: 991px) {
+	.suggestion .search-info{ 
+		width:60%;
+	}
+	.suggestion img.img-responsive{
+		width:30%;
+	}
+	.suggestion .productPriceDiscount{
+		top:auto !important;
+		bottom:10px;
+	}
+}
+@media (max-width: 768px) {
+	#suggestions{ 
+		left:0px!important; 
+	}
+}

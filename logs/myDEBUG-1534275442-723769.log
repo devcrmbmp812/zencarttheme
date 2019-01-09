@@ -1,0 +1,21 @@
+[14-Aug-2018 19:37:22 UTC] Request URI: /index.php?main_page=index&cPath=2, IP address: 47.205.224.183
+#1  navigationHistory->add_current_page() called at [/home/boscoyostudio/public_html/includes/autoload_func.php:87]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:37:22 UTC] PHP Warning:  Illegal string offset 'cPath' in /home/boscoyostudio/public_html/includes/classes/navigation_history.php on line 43
+[14-Aug-2018 19:37:22 UTC] Request URI: /index.php?main_page=index&cPath=2, IP address: 47.205.224.183
+#1  require(/home/boscoyostudio/public_html/includes/init_includes/init_header.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[14-Aug-2018 19:37:22 UTC] PHP Warning:  Use of undefined constant MODULE_PAYMENT_PAYPAL_TESTING - assumed 'MODULE_PAYMENT_PAYPAL_TESTING' (this will throw an Error in a future version of PHP) in /home/boscoyostudio/public_html/includes/init_includes/init_header.php on line 27
+[14-Aug-2018 19:37:22 UTC] PHP Fatal error:  Uncaught Error: Cannot use string offset as an array in /home/boscoyostudio/public_html/includes/modules/category_row.php:39
+Stack trace:
+#0 /home/boscoyostudio/public_html/includes/templates/template_default/templates/tpl_modules_category_row.php(14): require()
+#1 /home/boscoyostudio/public_html/includes/templates/template_default/templates/tpl_index_categories.php(73): require('/home/boscoyost...')
+#2 /home/boscoyostudio/public_html/includes/modules/pages/index/main_template_vars.php(236): require('/home/boscoyost...')
+#3 /home/boscoyostudio/public_html/includes/templates/template_default/common/tpl_main_page.php(245): require('/home/boscoyost...')
+#4 /home/boscoyostudio/public_html/index.php(101): require('/home/boscoyost...')
+#5 {main}
+  thrown in /home/boscoyostudio/public_html/includes/modules/category_row.php on line 39

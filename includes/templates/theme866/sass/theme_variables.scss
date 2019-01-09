@@ -1,0 +1,171 @@
+// ------- FONTS -------
+
+$font-family:				  		Arial, Helvetica, sans-serif;
+$font:						  		normal 13px/18px $font-family;
+$font-custom:                 		'Raleway', sans-serif;
+$font-custom2:                 		'Raleway', sans-serif;
+$font-weight:                 		400;
+$font-icon:                   		"FontAwesome";
+
+$label-background:					#ed1c24;
+
+@mixin subpages-elements-bg{
+	background-color: #ededed;
+	color: $color1;
+}
+
+// ------- COLORS -------
+
+$color:			        #fff;
+$color1:			    #191919;
+$color2:			    #e8e8e8;
+$color-main:			#777;
+$color-heading:			#191919;
+$color-hover:			#ed1c24;
+
+// ------- BORDERS -------
+
+$border:					    1px solid #ededed;
+$border-main-color:				#ededed;
+$border-main:					1px solid #ededed;
+$border-subcat:					4px solid #fff;
+$border-subcat-hov:				4px solid #ed1c24;
+
+// ------- PRODUCTS -------
+@mixin product-name{
+	color:#191919;
+	text-transform:none;
+	font:700 15px/26px $font-custom;
+}
+
+$product-name-hover:				$color-hover;
+
+@mixin description-text{
+	color:#777777;
+	font:400 14px/18px $font-custom;
+}
+@mixin price{
+	color:$color-hover;
+	font:700 30px/32px $font-custom;
+	vertical-align: middle;
+}
+@mixin price-old{
+	color:#cacaca;
+	font:400 30px/32px $font-custom;
+	text-decoration:line-through;
+	padding:0;
+	vertical-align: middle;
+}
+@mixin price-lh {
+	font:400 30px/32px $font-custom2;
+}
+
+// ------- BUTTONS -------
+@mixin button-default{
+	padding:6px 10px;
+	background: $color1;
+	color:#fff;
+	font:700 14px/25px $font-custom;
+	border-radius:0;
+	border:0;
+	&:hover{
+		background: $color-hover;
+		color: $color;
+	}
+}
+
+@mixin button-alternative{
+	padding:6px 10px;
+	background: $color1;
+	color:#fff;
+	font:700 14px/25px $font-custom;
+	border-radius:0;
+	border:0;
+	&:hover{
+		background: $color-hover;
+		color: $color;
+	}
+}
+@mixin add-to-cart{
+	padding:0;
+	background: $color-hover;
+	color:$color;
+	position: relative;
+	overflow: hidden;
+	text-transform:uppercase;
+	font:400 16px/25px $font-custom;
+	text-indent: -999px;
+	height: 61px;
+	width: 59px;
+	text-align: center;
+	@include transition;
+	&:before{
+		content:"\f07a";
+		position: absolute;
+		color: $color;
+		font-family: $font-icon;
+		font-size: 35px;
+		text-indent: 0;
+		line-height: 59px;
+		left: 12px;
+		display: inline-block;
+		@include transition;
+	}
+	&:hover{
+		background:$color1;
+		&:before{
+			color: $color;
+		}
+	}
+}
+
+// ------- TITLES -------
+@mixin sub-heading{
+	background: #ededed;
+	color:$color1;
+	font:700 27px/30px $font-custom;
+	padding:25px 29px;
+	margin:0 0 36px 0;
+}
+@mixin sub-heading-col{
+	background: #ededed;
+	color:$color1;
+	font:700 27px/30px $font-custom;
+	padding:25px 29px;
+	margin:0 0 36px 0;
+}
+@mixin breadcrumb_bg {
+	background: #fff;
+}
+
+// ------- OTHER -------
+
+$trans-grad: all .4s linear;
+
+@mixin transition {
+	-moz-transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+}
+@mixin transition1 {
+	-moz-transition: all 0.9s ease 0s;
+	-webkit-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+}
+@mixin box-shadow1{
+	-webkit-box-shadow: 1px 1px 18px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    1px 1px 18px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:         1px 1px 18px 0px rgba(0, 0, 0, 0.2);
+}
+@mixin box-shadow2{
+	-webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0 0 18px rgba(0, 0, 0, 0.2);
+	box-shadow:         0 0 18px rgba(0, 0, 0, 0.2);
+}
+@mixin box-shadow3{
+	-webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow:    0 0 18px rgba(0, 0, 0, 0.6);
+	box-shadow:         0 0 18px rgba(0, 0, 0, 0.6);
+}
+
+$mr_t: 20px;

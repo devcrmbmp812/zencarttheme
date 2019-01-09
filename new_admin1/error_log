@@ -1,0 +1,2 @@
+[11-Dec-2016 23:38:25 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/biggboss/public_html/products/new_admin/slider.php on line 258
+[12-Dec-2016 02:44:20 America/Chicago] PHP Parse error:  syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$' in /home/biggboss/public_html/products/new_admin/slider.php on line 255

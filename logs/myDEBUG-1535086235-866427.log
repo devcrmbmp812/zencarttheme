@@ -1,0 +1,30 @@
+[24-Aug-2018 04:50:36 UTC] Request URI: /index.php?main_page=checkout_shipping, IP address: 47.200.209.221
+#1  require(/home/boscoyostudio/public_html/includes/init_includes/init_header.php) called at [/home/boscoyostudio/public_html/includes/autoload_func.php:48]
+#2  require(/home/boscoyostudio/public_html/includes/autoload_func.php) called at [/home/boscoyostudio/public_html/includes/application_top.php:170]
+#3  require(/home/boscoyostudio/public_html/includes/application_top.php) called at [/home/boscoyostudio/public_html/index.php:26]
+
+[24-Aug-2018 04:50:36 UTC] PHP Warning:  Use of undefined constant MODULE_PAYMENT_PAYPAL_TESTING - assumed 'MODULE_PAYMENT_PAYPAL_TESTING' (this will throw an Error in a future version of PHP) in /home/boscoyostudio/public_html/includes/init_includes/init_header.php on line 27
+[24-Aug-2018 04:50:36 UTC] Request URI: /index.php?main_page=checkout_shipping, IP address: 47.200.209.221
+#1  zen_calculate_tax() called at [/home/boscoyostudio/public_html/includes/classes/order.php:574]
+#2  order->cart() called at [/home/boscoyostudio/public_html/includes/classes/order.php:35]
+#3  order->__construct() called at [/home/boscoyostudio/public_html/includes/modules/pages/checkout_shipping/header_php.php:88]
+#4  require(/home/boscoyostudio/public_html/includes/modules/pages/checkout_shipping/header_php.php) called at [/home/boscoyostudio/public_html/index.php:36]
+
+[24-Aug-2018 04:50:36 UTC] PHP Warning:  A non-numeric value encountered in /home/boscoyostudio/public_html/includes/functions/functions_taxes.php on line 172
+[24-Aug-2018 04:50:36 UTC] Request URI: /index.php?main_page=checkout_shipping, IP address: 47.200.209.221
+#1  zen_calculate_tax() called at [/home/boscoyostudio/public_html/includes/classes/order.php:575]
+#2  order->cart() called at [/home/boscoyostudio/public_html/includes/classes/order.php:35]
+#3  order->__construct() called at [/home/boscoyostudio/public_html/includes/modules/pages/checkout_shipping/header_php.php:88]
+#4  require(/home/boscoyostudio/public_html/includes/modules/pages/checkout_shipping/header_php.php) called at [/home/boscoyostudio/public_html/index.php:36]
+
+[24-Aug-2018 04:50:36 UTC] PHP Warning:  A non-numeric value encountered in /home/boscoyostudio/public_html/includes/functions/functions_taxes.php on line 172
+[24-Aug-2018 04:50:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ereg() in /home/boscoyostudio/public_html/includes/modules/shipping/auctioninc.php:466
+Stack trace:
+#0 /home/boscoyostudio/public_html/includes/modules/shipping/auctioninc.php(370): auctioninc->post('<?xml version="...', Array, '<?xml version="...', 'HTTP/1.1 200 OK...', '')
+#1 /home/boscoyostudio/public_html/includes/modules/shipping/auctioninc.php(356): auctioninc->_GetItemShipRate('<?xml version="...')
+#2 /home/boscoyostudio/public_html/includes/modules/shipping/auctioninc.php(502): auctioninc->GetItemShipRateSS()
+#3 /home/boscoyostudio/public_html/includes/classes/shipping.php(171): auctioninc->quote('')
+#4 /home/boscoyostudio/public_html/includes/modules/pages/checkout_shipping/header_php.php(201): shipping->quote()
+#5 /home/boscoyostudio/public_html/index.php(36): require('/home/boscoyost...')
+#6 {main}
+  thrown in /home/boscoyostudio/public_html/includes/modules/shipping/auctioninc.php on line 466

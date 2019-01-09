@@ -1,0 +1,2 @@
+[19-Jan-2015 13:35:15 America/Chicago] PHP Warning:  reset() expects parameter 1 to be array, null given in D:\hshome\james70818\boscoyostudio.com\products\boscoyo\includes\classes\object_info.php on line 29
+[19-Jan-2015 13:35:15 America/Chicago] PHP Warning:  Variable passed to each() is not an array or object in D:\hshome\james70818\boscoyostudio.com\products\boscoyo\includes\classes\object_info.php on line 30
