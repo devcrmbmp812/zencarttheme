@@ -1,8 +1,0 @@
-[25-Aug-2018 12:33:12 UTC] Request URI: /index.php?main_page=checkout_process&referer=paypal&amt=23.99&cc=USD&cm=zenid%3Dh954grt00cn6pto80c8du88io6&item_name=All%20the%20items%20in%20your%20shopping%20basket%20(see%20details%20in%20the%20store%20and%20on%20your%20store%20receipt).&item_number=Boscoyo%20Studio%20Purchase&st=Completed&tx=0WX2082917246242H, IP address: 71.175.28.74
-#1  constant() called at [/home/boscoyostudio/public_html/includes/modules/order_total/ot_insurance.php:43]
-#2  ot_insurance->ot_insurance() called at [/home/boscoyostudio/public_html/includes/classes/order_total.php:52]
-#3  order_total->__construct() called at [/home/boscoyostudio/public_html/includes/modules/checkout_process.php:64]
-#4  require(/home/boscoyostudio/public_html/includes/modules/checkout_process.php) called at [/home/boscoyostudio/public_html/includes/modules/pages/checkout_process/header_php.php:14]
-#5  require(/home/boscoyostudio/public_html/includes/modules/pages/checkout_process/header_php.php) called at [/home/boscoyostudio/public_html/index.php:36]
-
-[25-Aug-2018 12:33:12 UTC] PHP Warning:  constant(): Couldn't find constant MODULE_ORDER_TOTAL_INSURANCE_ZONE_3 in /home/boscoyostudio/public_html/includes/modules/order_total/ot_insurance.php on line 43

@@ -1,1 +1,0 @@
-[07-Jan-2019 12:19:18 UTC] PHP Fatal error:  Call to undefined function is__writeable() in /home/newboscoyostudio/public_html/new_admin/includes/init_includes/init_errors.php on line 84

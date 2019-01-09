@@ -14,7 +14,7 @@
 /**
  * Enter the domain for your Admin URL. If you have SSL, enter the correct https address in the HTTP_SERVER setting, instead of just an http address.
  */
-define('HTTP_SERVER', 'http://dev.zencarttheme.com');
+define('HTTP_SERVER', 'https://www.new.boscoyostudio.com');
 /**
  * Note about HTTPS_SERVER:
  * There is no longer an HTTPS_SERVER setting for the Admin. Instead, put your SSL URL in the HTTP_SERVER setting above.
@@ -30,8 +30,8 @@ define('HTTP_SERVER', 'http://dev.zencarttheme.com');
  * Enter the domain for your storefront URL.
  * Enter a separate SSL URL in HTTPS_CATALOG_SERVER if your store supports SSL.
  */
-define('HTTP_CATALOG_SERVER', 'http://dev.zencarttheme.com');
-define('HTTPS_CATALOG_SERVER', 'https://dev.zencarttheme.com');
+define('HTTP_CATALOG_SERVER', 'https://www.new.boscoyostudio.com/');
+define('HTTPS_CATALOG_SERVER', 'https://www.new.boscoyostudio.com/');
 
 /**
  * Do you use SSL for your customers login/checkout on the storefront? If so, enter 'true'. Else 'false'.
@@ -43,14 +43,14 @@ define('ENABLE_SSL_CATALOG', 'true');
  * These values get added to the HTTP_CATALOG_SERVER and HTTPS_CATALOG_SERVER values to form the complete URLs to your storefront.
  * They should always start and end with a slash ... ie: '/' or '/foldername/'
  */
-define('DIR_WS_CATALOG', '/');
-define('DIR_WS_HTTPS_CATALOG', '/');
+define('DIR_WS_CATALOG', '');
+define('DIR_WS_HTTPS_CATALOG', '');
 
 /**
  * This is the complete physical path to your store's files.  eg: /var/www/vhost/accountname/public_html/store/
  * Should have a closing / on it.
  */
-define('DIR_FS_CATALOG', 'E:/ZenCart/Project/public_html/');
+define('DIR_FS_CATALOG', '/home/newboscoyostudio/public_html/');
 
 /**
  * NOTE about DIR_FS_ADMIN
@@ -66,8 +66,8 @@ define('DB_TYPE', 'mysql'); // always 'mysql'
 define('DB_PREFIX', 'zen_'); // prefix for database table names -- preferred to be left empty
 define('DB_CHARSET', 'utf8'); // 'utf8' or 'latin1' are most common
   define('DB_SERVER', 'localhost');
-  define('DB_SERVER_USERNAME', 'root');
-define('DB_SERVER_PASSWORD', '');
+  define('DB_SERVER_USERNAME', 'newboscoyostudio_zew');
+  define('DB_SERVER_PASSWORD', 'B.BiMW4Y1clW');
   define('DB_DATABASE', 'newboscoyostudio_zen');
 
 /**

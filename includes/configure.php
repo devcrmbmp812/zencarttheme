@@ -15,8 +15,8 @@
  * HTTP_SERVER is your Main webserver: eg-http://www.yourdomain.com
  * HTTPS_SERVER is your Secure/SSL webserver: eg-https://www.yourdomain.com
  */
-define('HTTP_SERVER', 'https://www.new.boscoyostudio.com');
-define('HTTPS_SERVER', 'https://www.new.boscoyostudio.com');
+define('HTTP_SERVER', 'http://dev.zencarttheme.com');
+define('HTTPS_SERVER', 'https://dev.zencarttheme.com');
 
 /**
  *  If you want to tell Zen Cart to use your HTTPS URL on sensitive pages like login and checkout, set this to 'true'. Otherwise 'false'. (Keep the quotes)
@@ -35,7 +35,7 @@ define('DIR_WS_HTTPS_CATALOG', '/');
  * This is the complete physical path to your store's files.  eg: /var/www/vhost/accountname/public_html/store/
  * Should have a closing / on it.
  */
-define('DIR_FS_CATALOG', '/home/newboscoyostudio/public_html/');
+define('DIR_FS_CATALOG', 'E:/ZenCart/Project/public_html/');
 
 /**
  * The following settings define your database connection.
@@ -48,8 +48,8 @@ define('DB_CHARSET', 'utf8'); // 'utf8' or 'latin1' are most common
  // define('DB_SERVER_USERNAME', 'james70_zenNew');
 //  define('DB_SERVER_PASSWORD', 'xIyLiIUM6y');
  // define('DB_DATABASE', 'james70_boscoyostudio');
-  define('DB_SERVER_USERNAME', 'newboscoyostudio_zew');
-  define('DB_SERVER_PASSWORD', 'B.BiMW4Y1clW');
+ define('DB_SERVER_USERNAME', 'root');
+ define('DB_SERVER_PASSWORD', '');
   define('DB_DATABASE', 'newboscoyostudio_zen');
  
  

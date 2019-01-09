@@ -36,7 +36,7 @@ define('HEADER_TITLE_MANUFACTURERS','Brands');
 define('HEADER_TITLE_ABOUT_US','About Us');
 define('TITLE_ABOUT_US','Welcome to our Store!');
 define('TEXT_ABOUT_US','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum feugiat ipsum vehicula sollicitudin. Integer sed lacus eget risus consectetur ullamcorper. Pellentesque rutrum ullamcorper faucibus. Nam porttitor iaculis enim, mattis tristique velit tristique bibendum.  Aliquam porta nisl tortor, non luctus justo. Nam tincidunt dui vel mauris tincidunt posuere. Phasellus rhoncus elit et lorem sodales ullamcorper.');
-define(ABOUT_US_IMAGE,'aboutus.png');
+define('ABOUT_US_IMAGE','aboutus.png');
 
 /*bof information definitions*/
 define('HEADER_TITLE_INFORMATION','Info');
@@ -67,7 +67,7 @@ Please email customer service for returns.');
 define('TEXT_DELIVERY_INFO','Etiam interdum feugiat ipsum vehicula sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed lacus eget risus consectetur ullamcorper. Pellentesque rutrum ullamcorper faucibus. Nam porttitor iaculis enim, mattis tristique velit tristique bibendum. ');
 define('TITLE_CONFIDENCE','Shop with Confidence');
 define('TEXT_CONFIDENCE','Here you can write a few short sentencs about why your customers can buy with conficence from your store.  You might also want to outline your payment options here.');
-define(PAYMENT_ICON,'payments.png');
+define('PAYMENT_ICON','payments.png');
 
 
 
