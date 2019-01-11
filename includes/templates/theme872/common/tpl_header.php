@@ -42,14 +42,14 @@ if (!isset($flag_disable_header) || !$flag_disable_header) {
             <div class="nav">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 col-md-5 col-sm-5">
-                            <div id="header_logo">
+                        <div class="col-xs-12 col-md-4 col-sm-4">
+                            <div id="header_logo" >
                                 <!-- ========== LOGO ========== -->
                                     <a href="<?php echo zen_href_link(FILENAME_DEFAULT);?>"><?php echo zen_image(DIR_WS_TEMPLATE.'images/logo.png'); ?></a>
                                 <!-- ========================== -->
                             </div>
                         </div>
-                        <div class="col-xs-12 col-md-6 col-sm-6">
+                        <div class="col-xs-12 col-md-6 col-sm-6 navleft">
                             <div id="currencies-block-top" class="top_dropdown_menu">
                                 <!-- ========== CURRENCIES ========= -->
                                 <form name="currencies" id="currencies_form" action="<?php echo zen_href_link(basename(preg_replace('~.php~','', $PHP_SELF)), '', $request_type, false) ?>" method="get" >
@@ -145,7 +145,7 @@ if (!isset($flag_disable_header) || !$flag_disable_header) {
                                 <!-- ====================================== -->
                             </ul>
                         </div>
-                        <div class="col-xs-12 col-md-1 col-sm-1">
+                        <div class="col-xs-12 col-md-1 col-sm-1 navleft">
                             <div class="shopping_cart" id="shopping_cart">
                                 <!-- ========== SHOPPING CART ========== -->
                                 <?php 
@@ -170,7 +170,17 @@ if (!isset($flag_disable_header) || !$flag_disable_header) {
                                 <!-- =================================== --> 
                             </div>
                         </div>
+                        <div class="col-xs-12 col-md-1 col-sm-1">
+                            
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="tree">
+                <div class="header_tree">
+                    <!-- ========== Tree LOGO ========== -->
+                        <a href="<?php echo zen_href_link(FILENAME_DEFAULT);?>"><?php echo zen_image(DIR_WS_TEMPLATE.'images/tree.png'); ?></a>
+                    <!-- ========================== -->
                 </div>
             </div>
             <div class="bg1">

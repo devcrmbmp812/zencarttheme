@@ -252,9 +252,29 @@
     padding-left: 2px;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  div.navleft {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div.header_tree {
+    margin-right: 0px;
+  }
+  
+}
 @media only screen and (max-width: 767px) {
   #toTop {
     display: none !important;
+  }
+
+  div.header_tree {
+    margin-right: 0px;
+  }
+  div.nav {
+    margin-bottom: 76px;
   }
 
   div#header_logo {
@@ -264,6 +284,10 @@
   }
 
   div#header_logo img {
+    width: auto;
+  }
+
+  div#header_tree img {
     width: auto;
   }
 

@@ -10,10 +10,10 @@ $(function(){
 });
 // smooth scrolling
 $(function() {
-    $.srSmoothscroll({
-        step: 170,
-        speed: 800
-    });
+    // $.srSmoothscroll({
+    //     step: 170,
+    //     speed: 800
+    // });
 });
 $(function(){
    $('.messageStackSuccess').delay(4000).fadeOut('slow');

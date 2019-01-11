@@ -69,7 +69,7 @@ class zen_categories_ul_generator {
                 $result .= $category['name'];
                 $result .= '</a>';
 				  
-                if (($this->data[$category_id]) && (($this->max_level == '0') || ($this->max_level > $level+1))) {
+                if (isset($this->data[$category_id]) && (($this->max_level == '0') || ($this->max_level > $level+1))) {
                     $result .= $this->buildBranch($category_id, $level+1, $submenu, $category_link . '_');
                 }
                 $result .= $this->child_end_string;

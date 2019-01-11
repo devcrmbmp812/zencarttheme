@@ -9713,6 +9713,7 @@ header .nav {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#ffffff',GradientType=0 );
 }
 
+
 /*==============================
           -- Logo -- 
 ==============================*/
@@ -9721,6 +9722,14 @@ div#header_logo {
   margin: 0;
   top: 0;
   position: relative;
+}
+
+div.header_tree {
+  width: 73px;
+  height: 30px;
+  float: right;
+  margin-top: -107px;
+  margin-right: 300px;
 }
 
 /*==============================

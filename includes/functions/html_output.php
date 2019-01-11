@@ -320,7 +320,7 @@
     // (pure css hovers on non link elements do work work in every browser)
     $css_button_js .=  'onmouseover="this.className=\''. $mouse_over_class . '\'" onmouseout="this.className=\'' . $mouse_out_class . '\'"';
 
-    if (CSS_BUTTON_POPUPS_IS_ARRAY == 'true') {
+    if (defined('CSS_BUTTON_POPUPS_IS_ARRAY') && CSS_BUTTON_POPUPS_IS_ARRAY == 'true') {
       $popuptext = (!empty($css_button_text[$button_name])) ? $css_button_text[$button_name] : ($button_name . CSSBUTTONS_CATALOG_POPUPS_SHOW_BUTTON_NAMES_TEXT);
       $tooltip = ' title="' . $popuptext . '"';
     } else {
